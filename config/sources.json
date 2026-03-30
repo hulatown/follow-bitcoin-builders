@@ -1,0 +1,32 @@
+{
+  "name": "Follow Bitcoin Builders",
+  "description": "Aggregated content from true Bitcoin builders - developers, researchers, and protocol designers",
+  "version": "1.0.0",
+  "sources": {
+    "x": {
+      "enabled": true,
+      "lookbackHours": 24,
+      "description": "Bitcoin builders on X/Twitter"
+    },
+    "blogs": {
+      "enabled": true,
+      "lookbackHours": 72,
+      "description": "Official Bitcoin development blogs"
+    },
+    "newsletters": {
+      "enabled": true,
+      "lookbackHours": 168,
+      "description": "Bitcoin technical newsletters"
+    },
+    "forums": {
+      "enabled": true,
+      "lookbackHours": 72,
+      "description": "Bitcoin technical discussion forums"
+    }
+  },
+  "settings": {
+    "language": "en",
+    "summaryStyle": "technical",
+    "includeLinks": true
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "name": "Bitcoin Technical Forums & Mailing Lists",
+  "description": "Discussion forums and mailing lists where Bitcoin protocol design and implementation are discussed",
+  "forums": [
+    {
+      "name": "Bitcoin Development Mailing List",
+      "url": "https://groups.google.com/g/bitcoindev",
+      "rss": "https://groups.google.com/g/bitcoindev/feed/atom_v1_0_topics_rss.xml",
+      "category": "protocol",
+      "description": "Official Bitcoin development mailing list for BIPs and protocol discussions. Moved from Linux Foundation to Google Groups.",
+      "priority": "critical",
+      "notes": "Primary venue for BIP proposals and consensus-critical discussions",
+      "recent_topics": [
+        {
+          "title": "P2QRH / BIP-360 - Quantum Resistant Addresses",
+          "description": "Proposal for pay-to-quantum-resistant-hash addresses as defense against future quantum computers",
+          "url": "https://groups.google.com/g/bitcoindev/c/oQKezDOc4us"
+        },
+        {
+          "title": "BIP-352 Silent Payments",
+          "description": "Privacy improvement for receiving payments without address reuse",
+          "status": "merged"
+        },
+        {
+          "title": "Script Restoration (varops budget, tapscript leaf 0xc2)",
+          "description": "Proposals to restore disabled opcodes with resource limits"
+        },
+        {
+          "title": "P2P Feature Negotiation",
+          "description": "Anthony Towns' proposal for generalized P2P message for feature announcement",
+          "author": "Anthony Towns"
+        },
+        {
+          "title": "UTXO Set Management",
+          "description": "Debates on handling dust UTXOs from Ordinals/Stamps"
+        },
+        {
+          "title": "OP_CTV Footgun Discussion",
+          "description": "Chris Stewart's analysis of CTV edge cases that can make outputs unspendable",
+          "author": "Chris Stewart"
+        }
+      ]
+    },
+    {
+      "name": "Delving Bitcoin",
+      "url": "https://delvingbitcoin.org/",
+      "rss": "https://delvingbitcoin.org/latest.rss",
+      "category": "protocol",
+      "description": "A place to dig deep into Bitcoin. Technical discussions on protocol design, implementation, economics, and philosophy.",
+      "priority": "critical",
+      "topics": {
+        "implementation": "Practical techniques for Bitcoin software",
+        "protocol-design": "Proposals and analysis of Bitcoin protocol improvements",
+        "economics": "Game theory and macroeconomic impacts",
+        "philosophy": "Conceptual questions about decentralization"
+      }
+    },
+    {
+      "name": "Bitcoin TLDR",
+      "url": "https://tldr.bitcoinsearch.xyz/",
+      "rss": null,
+      "category": "aggregator",
+      "description": "AI-powered summaries of Bitcoin technical discussions from mailing lists and forums",
+      "priority": "high",
+      "notes": "Good for catching up on mailing list discussions"
+    },
+    {
+      "name": "Lightning Development Mailing List",
+      "url": "https://lists.linuxfoundation.org/pipermail/lightning-dev/",
+      "rss": null,
+      "category": "lightning",
+      "description": "Lightning Network protocol development discussions",
+      "priority": "high"
+    },
+    {
+      "name": "Bitcoin Stack Exchange",
+      "url": "https://bitcoin.stackexchange.com/",
+      "rss": "https://bitcoin.stackexchange.com/feeds",
+      "category": "qa",
+      "description": "Q&A for Bitcoin developers and users. High-quality technical answers.",
+      "priority": "high",
+      "notes": "Featured weekly in Bitcoin Optech Newsletter"
+    },
+    {
+      "name": "Bitcoin Core GitHub",
+      "url": "https://github.com/bitcoin/bitcoin",
+      "rss": "https://github.com/bitcoin/bitcoin/releases.atom",
+      "category": "development",
+      "description": "Bitcoin Core repository - PRs, issues, and releases",
+      "priority": "high"
+    },
+    {
+      "name": "Bitcoin Improvement Proposals (BIPs)",
+      "url": "https://github.com/bitcoin/bips",
+      "rss": "https://github.com/bitcoin/bips/commits/master.atom",
+      "category": "protocol",
+      "description": "Official Bitcoin Improvement Proposals repository",
+      "priority": "high",
+      "active_bips": [
+        "BIP-118: SIGHASH_ANYPREVOUT (for eltoo/LN-Symmetry)",
+        "BIP-119: OP_CHECKTEMPLATEVERIFY",
+        "BIP-352: Silent Payments",
+        "BIP-360: P2QRH (Quantum Resistant)",
+        "BIP-392: Silent Payment Descriptors"
+      ]
+    },
+    {
+      "name": "BOLTs (Lightning Specs)",
+      "url": "https://github.com/lightning/bolts",
+      "rss": "https://github.com/lightning/bolts/commits/master.atom",
+      "category": "lightning",
+      "description": "Lightning Network protocol specifications",
+      "priority": "high"
+    }
+  ],
+  "categories": {
+    "protocol": "Bitcoin protocol discussions and proposals",
+    "lightning": "Lightning Network specific discussions",
+    "qa": "Question and answer format",
+    "development": "Implementation and development",
+    "aggregator": "Content aggregation and summaries"
+  }
+}

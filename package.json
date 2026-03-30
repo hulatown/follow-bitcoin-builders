@@ -1,0 +1,28 @@
+{
+  "name": "follow-bitcoin-builders",
+  "version": "1.0.0",
+  "description": "Aggregated content from true Bitcoin builders - developers, researchers, and protocol designers. Powered by 6551.io for X/Twitter access.",
+  "type": "module",
+  "scripts": {
+    "fetch": "node scripts/fetch-feeds.js",
+    "prepare": "node scripts/generate-digest.js",
+    "digest": "npm run fetch && npm run prepare"
+  },
+  "keywords": [
+    "bitcoin",
+    "developers",
+    "aggregator",
+    "newsletter",
+    "digest",
+    "6551"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "rss-parser": "^3.13.0"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

@@ -1,0 +1,82 @@
+name: Daily Bitcoin Builders Digest
+
+on:
+  schedule:
+    # Run daily at 8:00 UTC
+    - cron: '0 8 * * *'
+  workflow_dispatch:
+    inputs:
+      source:
+        description: 'Source to fetch (all, x, blogs, newsletters, forums)'
+        required: false
+        default: 'all'
+
+jobs:
+  generate-digest:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Generate digest
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          TWITTER_BEARER_TOKEN: ${{ secrets.TWITTER_BEARER_TOKEN }}
+        run: |
+          if [ "${{ github.event.inputs.source }}" != "" ]; then
+            npm run digest -- --source=${{ github.event.inputs.source }}
+          else
+            npm run digest
+          fi
+
+      - name: Commit and push digest
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add examples/
+          git diff --staged --quiet || git commit -m "Update digest $(date +%Y-%m-%d)"
+          git push
+
+  notify:
+    needs: generate-digest
+    runs-on: ubuntu-latest
+    if: success()
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Get latest digest
+        id: digest
+        run: |
+          LATEST=$(ls -t examples/digest-*.md 2>/dev/null | head -1)
+          if [ -n "$LATEST" ]; then
+            echo "file=$LATEST" >> $GITHUB_OUTPUT
+            echo "exists=true" >> $GITHUB_OUTPUT
+          else
+            echo "exists=false" >> $GITHUB_OUTPUT
+          fi
+
+      # Add your notification steps here (Slack, Discord, email, etc.)
+      # Example for Discord:
+      # - name: Send Discord notification
+      #   if: steps.digest.outputs.exists == 'true'
+      #   env:
+      #     DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+      #   run: |
+      #     curl -X POST $DISCORD_WEBHOOK \
+      #       -H "Content-Type: application/json" \
+      #       -d "{\"content\": \"New Bitcoin Builders digest available!\"}"

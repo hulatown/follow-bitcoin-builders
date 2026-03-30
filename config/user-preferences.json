@@ -1,0 +1,23 @@
+{
+  "frequency": "daily",
+  "language": "en",
+  "sources": {
+    "optech": true,
+    "mailing-list": true,
+    "delving": true,
+    "x": true,
+    "blogs": true,
+    "github": true
+  },
+  "topics": {
+    "protocol": "high",
+    "lightning": "high",
+    "privacy": "medium",
+    "security": "high",
+    "tooling": "medium",
+    "research": "medium"
+  },
+  "style": "standard",
+  "timezone": "UTC",
+  "delivery_time": "08:00"
+}

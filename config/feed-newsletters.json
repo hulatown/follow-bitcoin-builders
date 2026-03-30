@@ -1,0 +1,69 @@
+{
+  "name": "Bitcoin Technical Newsletters",
+  "description": "Curated newsletters covering Bitcoin protocol development and technical updates",
+  "newsletters": [
+    {
+      "name": "Bitcoin Optech Newsletter",
+      "url": "https://bitcoinops.org/en/newsletters/",
+      "rss": "https://bitcoinops.org/feed.xml",
+      "frequency": "weekly",
+      "category": "protocol",
+      "description": "The definitive source for Bitcoin technical developments. Covers protocol changes, notable PRs, and developer discussions.",
+      "priority": "critical",
+      "notes": "Primary author Dave Harding stepped back in 2025 after 376 consecutive issues"
+    },
+    {
+      "name": "Bitcoin Optech Podcast",
+      "url": "https://bitcoinops.org/en/podcast/",
+      "rss": "https://anchor.fm/s/d9f1b7e8/podcast/rss",
+      "frequency": "weekly",
+      "category": "protocol",
+      "description": "Audio companion to the newsletter with deeper discussions",
+      "priority": "high"
+    },
+    {
+      "name": "Bitcoin++ Insider - This Week in Bitcoin Core",
+      "url": "https://btcplusplus.dev/newsletter",
+      "rss": null,
+      "frequency": "weekly",
+      "category": "core",
+      "description": "Focused coverage of Bitcoin Core development",
+      "priority": "high"
+    },
+    {
+      "name": "Stephan Livera Podcast",
+      "url": "https://stephanlivera.com/",
+      "rss": "https://stephanlivera.com/feed/podcast",
+      "frequency": "weekly",
+      "category": "interviews",
+      "description": "In-depth interviews with Bitcoin developers and economists",
+      "priority": "medium"
+    },
+    {
+      "name": "Bitcoin Magazine Technical",
+      "url": "https://bitcoinmagazine.com/technical",
+      "rss": "https://bitcoinmagazine.com/feed",
+      "frequency": "variable",
+      "category": "technical",
+      "description": "Technical articles and analysis from Bitcoin Magazine",
+      "priority": "medium"
+    },
+    {
+      "name": "Shinobi's 21 Days of Bitcoin",
+      "url": "https://21lessons.com/",
+      "rss": null,
+      "frequency": "variable",
+      "category": "education",
+      "description": "Technical Bitcoin education content",
+      "priority": "medium"
+    }
+  ],
+  "categories": {
+    "protocol": "Bitcoin protocol and consensus changes",
+    "development": "General Bitcoin development news",
+    "core": "Bitcoin Core specific updates",
+    "interviews": "Developer interviews and discussions",
+    "technical": "Technical analysis and deep dives",
+    "education": "Educational content for developers"
+  }
+}

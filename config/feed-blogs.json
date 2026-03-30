@@ -1,0 +1,104 @@
+{
+  "name": "Bitcoin Technical Blogs",
+  "description": "Official blogs from Bitcoin development organizations and companies",
+  "blogs": [
+    {
+      "name": "Blockstream Research",
+      "url": "https://research.blockstream.com/",
+      "rss": "https://research.blockstream.com/feed/",
+      "category": "research",
+      "description": "Cryptographic research, protocol design, Simplicity, MuSig, and more",
+      "priority": "high"
+    },
+    {
+      "name": "Blockstream Blog",
+      "url": "https://blog.blockstream.com/",
+      "rss": "https://blog.blockstream.com/rss/",
+      "category": "company",
+      "description": "Company updates, Liquid Network, Core Lightning developments",
+      "priority": "high"
+    },
+    {
+      "name": "Lightning Labs Blog",
+      "url": "https://lightning.engineering/blog/",
+      "rss": "https://lightning.engineering/blog/feed.xml",
+      "category": "lightning",
+      "description": "LND releases, Taproot Assets, Lightning Network developments",
+      "priority": "high"
+    },
+    {
+      "name": "Chaincode Labs Blog",
+      "url": "https://chaincode.com/blog",
+      "rss": "https://chaincode.com/blog/feed.xml",
+      "category": "education",
+      "description": "Bitcoin Core development education and insights",
+      "priority": "high"
+    },
+    {
+      "name": "Brink Blog",
+      "url": "https://brink.dev/blog",
+      "rss": "https://brink.dev/blog/feed.xml",
+      "category": "development",
+      "description": "Bitcoin open-source development updates and grantee work",
+      "priority": "high"
+    },
+    {
+      "name": "Spiral Blog",
+      "url": "https://spiral.xyz/blog",
+      "rss": "https://spiral.xyz/blog/feed.xml",
+      "category": "development",
+      "description": "Bitcoin development initiatives funded by Block",
+      "priority": "medium"
+    },
+    {
+      "name": "Bitcoin Dev Kit Blog",
+      "url": "https://bitcoindevkit.org/blog/",
+      "rss": "https://bitcoindevkit.org/feed.xml",
+      "category": "development",
+      "description": "BDK library updates and wallet development",
+      "priority": "medium"
+    },
+    {
+      "name": "LDK Blog",
+      "url": "https://lightningdevkit.org/blog/",
+      "rss": "https://lightningdevkit.org/feed.xml",
+      "category": "lightning",
+      "description": "Lightning Dev Kit updates and integrations",
+      "priority": "medium"
+    },
+    {
+      "name": "BitMEX Research",
+      "url": "https://blog.bitmex.com/category/research/",
+      "rss": "https://blog.bitmex.com/feed/",
+      "category": "research",
+      "description": "Evidence-based Bitcoin research reports, fork monitoring, protocol analysis",
+      "priority": "high",
+      "filter": "bitcoin-only",
+      "notes": "Filter for Bitcoin-related posts only, skip altcoin/trading content"
+    },
+    {
+      "name": "River Research",
+      "url": "https://river.com/learn/",
+      "rss": null,
+      "category": "research",
+      "description": "In-depth Bitcoin research and analysis",
+      "priority": "medium"
+    },
+    {
+      "name": "Casa Blog",
+      "url": "https://blog.casa.io/",
+      "rss": "https://blog.casa.io/rss/",
+      "category": "security",
+      "description": "Bitcoin security, self-custody, and key management",
+      "priority": "medium"
+    }
+  ],
+  "categories": {
+    "research": "Academic and cryptographic research",
+    "company": "Company and product updates",
+    "lightning": "Lightning Network specific content",
+    "education": "Developer education and tutorials",
+    "development": "Open-source development updates",
+    "security": "Security and self-custody"
+  }
+}
