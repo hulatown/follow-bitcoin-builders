@@ -48,40 +48,52 @@ async function fetchRSS(url) {
  * Fetch tweets using 6551 OpenTwitter API
  * Docs: https://github.com/6551Team/opentwitter-mcp
  * Get token: https://6551.io/login?code=HvzQtB
+ *
+ * All endpoints use POST with JSON body
  */
-async function fetchTwitterUser(handle) {
+async function fetchTwitterUser(username) {
   if (!TWITTER_TOKEN) {
     throw new Error('TWITTER_TOKEN not set. Get one at https://6551.io/login?code=HvzQtB');
   }
 
-  const response = await fetch(`${TWITTER_API_BASE}/open/twitter/user_by_username/${handle}`, {
+  const response = await fetch(`${TWITTER_API_BASE}/open/twitter_user_info`, {
+    method: 'POST',
     headers: {
       'Authorization': `Bearer ${TWITTER_TOKEN}`,
       'Content-Type': 'application/json'
-    }
+    },
+    body: JSON.stringify({ username })
   });
 
   if (!response.ok) {
-    throw new Error(`Failed to fetch user ${handle}: ${response.status}`);
+    const text = await response.text();
+    throw new Error(`Failed to fetch user ${username}: ${response.status} ${text}`);
   }
 
   return response.json();
 }
 
-async function fetchUserTweets(userId, count = 20) {
+async function fetchUserTweets(username, maxResults = 20) {
   if (!TWITTER_TOKEN) {
     throw new Error('TWITTER_TOKEN not set. Get one at https://6551.io/login?code=HvzQtB');
   }
 
-  const response = await fetch(`${TWITTER_API_BASE}/open/twitter/user_tweets/${userId}?count=${count}`, {
+  const response = await fetch(`${TWITTER_API_BASE}/open/twitter_user_tweets`, {
+    method: 'POST',
     headers: {
       'Authorization': `Bearer ${TWITTER_TOKEN}`,
       'Content-Type': 'application/json'
-    }
+    },
+    body: JSON.stringify({
+      username,
+      maxResults,
+      product: 'Latest'
+    })
   });
 
   if (!response.ok) {
-    throw new Error(`Failed to fetch tweets for ${userId}: ${response.status}`);
+    const text = await response.text();
+    throw new Error(`Failed to fetch tweets for ${username}: ${response.status} ${text}`);
   }
 
   return response.json();
@@ -92,22 +104,23 @@ async function searchTwitter(query, options = {}) {
     throw new Error('TWITTER_TOKEN not set. Get one at https://6551.io/login?code=HvzQtB');
   }
 
-  const params = new URLSearchParams({
-    query,
-    product: options.product || 'Latest',
-    count: options.count || 50,
-    ...options
-  });
-
-  const response = await fetch(`${TWITTER_API_BASE}/open/twitter/search?${params}`, {
+  const response = await fetch(`${TWITTER_API_BASE}/open/twitter_search`, {
+    method: 'POST',
     headers: {
       'Authorization': `Bearer ${TWITTER_TOKEN}`,
       'Content-Type': 'application/json'
-    }
+    },
+    body: JSON.stringify({
+      query,
+      product: options.product || 'Latest',
+      maxResults: options.maxResults || 50,
+      ...options
+    })
   });
 
   if (!response.ok) {
-    throw new Error(`Twitter search failed: ${response.status}`);
+    const text = await response.text();
+    throw new Error(`Twitter search failed: ${response.status} ${text}`);
   }
 
   return response.json();
@@ -140,19 +153,20 @@ async function fetchX() {
     try {
       console.log(`  Fetching @${handle}...`);
       const user = await fetchTwitterUser(handle);
-      if (user?.id) {
-        const tweets = await fetchUserTweets(user.id, 10);
+      if (user) {
+        const tweets = await fetchUserTweets(handle, 10);
         results.accounts.push({
           handle,
-          name: user.name,
+          name: user.name || user.screen_name,
           bio: user.description,
           followers: user.followers_count
         });
-        if (tweets?.tweets) {
-          results.tweets.push(...tweets.tweets.map(t => ({
+        if (tweets?.data || tweets?.tweets) {
+          const tweetList = tweets.data || tweets.tweets || [];
+          results.tweets.push(...tweetList.map(t => ({
             ...t,
             handle,
-            author: user.name
+            author: user.name || user.screen_name
           })));
         }
         results.stats.fetched++;
@@ -162,7 +176,7 @@ async function fetchX() {
       results.stats.errors++;
     }
     // Rate limiting
-    await new Promise(r => setTimeout(r, 200));
+    await new Promise(r => setTimeout(r, 300));
   }
 
   return results;

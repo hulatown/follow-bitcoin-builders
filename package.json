@@ -5,8 +5,8 @@
   "type": "module",
   "scripts": {
     "fetch": "node scripts/fetch-feeds.js",
-    "prepare": "node scripts/generate-digest.js",
-    "digest": "npm run fetch && npm run prepare"
+    "summarize": "node scripts/generate-digest.js",
+    "digest": "npm run fetch && npm run summarize"
   },
   "keywords": [
     "bitcoin",
