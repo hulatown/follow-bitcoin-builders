@@ -49,10 +49,15 @@ The traditional venue for:
 - Are there competing proposals?
 - Next steps (if any)
 
-### Related Resources
-- Links to related BIPs
-- Previous discussions on the topic
-- Implementations or prototypes
+### Related Resources (REQUIRED)
+Every discussion MUST include clickable source links:
+
+- **Delving Bitcoin**: `[View thread](https://delvingbitcoin.org/t/topic-slug/123)`
+- **Mailing list**: `[View post](https://groups.google.com/g/bitcoindev/c/thread-id)`
+- **BIPs**: `[BIP-XXX](https://github.com/bitcoin/bips/blob/master/bip-xxxx.mediawiki)`
+- **Pull requests**: `[PR #XXXXX](https://github.com/bitcoin/bitcoin/pull/XXXXX)`
+- **Previous discussions**: Link to related threads
+- **Implementations**: Link to GitHub repos or gists
 
 ## Prioritization
 

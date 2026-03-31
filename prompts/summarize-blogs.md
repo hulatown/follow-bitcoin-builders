@@ -33,10 +33,12 @@ Provide a technical summary that:
 - What problem does it solve?
 - Dependencies or prerequisites
 
-### Links
-- Original post
-- Related BIPs or specifications
-- GitHub repositories mentioned
+### Links (REQUIRED)
+Every blog post MUST include clickable source links:
+- **Original post**: Full URL to the blog post (e.g., `[Read full post](https://lightning.engineering/posts/2026-03-27-aperture/)`)
+- **Related BIPs**: Link to GitHub (e.g., `[BIP-352](https://github.com/bitcoin/bips/blob/master/bip-0352.mediawiki)`)
+- **GitHub repos**: Direct links to repositories mentioned
+- **PRs referenced**: Link to pull requests (e.g., `[PR #28948](https://github.com/bitcoin/bitcoin/pull/28948)`)
 
 ## Tone
 - Assume the reader has intermediate Bitcoin technical knowledge

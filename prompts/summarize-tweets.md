@@ -39,16 +39,22 @@ These are technical people working on Bitcoin Core, Lightning Network, cryptogra
 
 For each notable tweet or thread:
 
-**[Author Name] (@handle)**
+**[Author Name] (@handle)** — [View tweet](https://x.com/{handle}/status/{tweet_id})
 > Brief summary of the technical content
 
 Key points:
 - Point 1
 - Point 2
 
-[Link to original tweet]
-
 ---
 
+## Source Links (REQUIRED)
+
+Every tweet reference MUST include a clickable link to the original:
+- Format: `[View tweet](https://x.com/{handle}/status/{id})`
+- Example: `[View tweet](https://x.com/roasbeef/status/2037613541700833689)`
+
+The tweet ID is provided in the data as `id` field. Always construct the full URL.
+
 ## Grouping
-Group related discussions together. If multiple builders are discussing the same topic, summarize it as a single item with multiple perspectives.
+Group related discussions together. If multiple builders are discussing the same topic, summarize it as a single item with multiple perspectives. Include links to ALL relevant tweets in the group.

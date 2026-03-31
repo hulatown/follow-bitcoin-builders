@@ -66,3 +66,15 @@ For each, note:
 
 ### Further Reading
 - [Links to related resources]
+
+## Source Links (REQUIRED)
+
+Every reference MUST include clickable links:
+
+1. **Newsletter issue**: `[Bitcoin Optech #350](https://bitcoinops.org/en/newsletters/2026/03/26/)`
+2. **Delving Bitcoin threads**: `[Discussion](https://delvingbitcoin.org/t/topic-slug/123)`
+3. **Mailing list posts**: `[bitcoin-dev](https://groups.google.com/g/bitcoindev/c/thread-id)`
+4. **Pull requests**: `[Bitcoin Core #28948](https://github.com/bitcoin/bitcoin/pull/28948)`
+5. **BIPs**: `[BIP-352](https://github.com/bitcoin/bips/blob/master/bip-0352.mediawiki)`
+
+Never reference content without providing the source URL.
