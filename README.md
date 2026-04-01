@@ -2,7 +2,7 @@
 
 An aggregation system for following Bitcoin builders - protocol developers, researchers, and engineers who actively contribute to Bitcoin's development.
 
-**Philosophy**: Follow people who write code, propose BIPs, and have original technical insights. Not influencers who regurgitate information.
+Inspired by [follow-builders](https://github.com/zarazhangrui/follow-builders) for AI builders.
 
 ## Powered By
 
@@ -22,7 +22,7 @@ Core developers, Lightning engineers, and researchers including:
 
 [Full list →](config/feed-x.json)
 
-> **Note**: X handles are placeholder examples. You should provide your own list of Bitcoin builders to follow. Some handles may need verification.
+> **Note**: X handles are from [Jameson Lopp](https://x.com/lopp)'s [Bitcoin Dev list](https://x.com/i/lists/967118678205505536). Some handles may need verification. And you should provide your own list of Bitcoin builders to follow.
 
 ### Technical Blogs
 | Blog | Focus |
@@ -51,7 +51,6 @@ Core developers, Lightning engineers, and researchers including:
 | [Delving Bitcoin](https://delvingbitcoin.org/) | Deep technical discussions |
 | [Bitcoin TLDR](https://tldr.bitcoinsearch.xyz/) | AI summaries of mailing list discussions |
 | [Bitcoin Stack Exchange](https://bitcoin.stackexchange.com/) | Technical Q&A |
-| [Bitcoin Core GitHub](https://github.com/bitcoin/bitcoin) | PRs and releases |
 
 **Hot Topics on Mailing List (2026):**
 - BIP-360: P2QRH quantum-resistant addresses
@@ -240,10 +239,6 @@ PRs welcome for:
 ## License
 
 MIT
-
-## Acknowledgments
-
-Inspired by [follow-builders](https://github.com/zarazhangrui/follow-builders) for AI builders.
 
 ## Resources
 
