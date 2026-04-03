@@ -142,14 +142,10 @@ async function fetchX() {
 
   console.log(`Fetching tweets from ${config.accounts.length} Bitcoin builders...`);
 
-  // Fetch from notable builders first (higher priority)
-  const priorityHandles = [
-    ...config.notable_builders?.core_maintainers || [],
-    ...config.notable_builders?.lightning || [],
-    ...config.notable_builders?.research || []
-  ];
+  // Fetch from all accounts in the config
+  const allHandles = config.accounts.map(a => a.handle || a);
 
-  for (const handle of priorityHandles.slice(0, 20)) {
+  for (const handle of allHandles) {
     try {
       console.log(`  Fetching @${handle}...`);
       const user = await fetchTwitterUser(handle);

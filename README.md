@@ -13,7 +13,7 @@ Inspired by [follow-builders](https://github.com/zarazhangrui/follow-builders) f
 
 ## Sources
 
-### X/Twitter (~20 accounts)
+### X/Twitter (203 accounts)
 Core developers, Lightning engineers, and researchers including:
 - Bitcoin Core maintainers (Gloria Zhao, Andrew Chow, etc.)
 - Protocol researchers (Pieter Wuille, Andrew Poelstra)

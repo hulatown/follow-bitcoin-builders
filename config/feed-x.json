@@ -2,251 +2,670 @@
   "name": "Bitcoin Builders on X",
   "description": "Bitcoin builders - protocol developers, researchers, and infrastructure engineers",
   "source_list": "https://x.com/i/lists/967118678205505536",
-  "total_accounts": 234,
+  "total_accounts": 203,
   "accounts": [
-    {"handle": "Bitcoin_Devs"},
-    {"handle": "plebhash"},
-    {"handle": "BenAllenG"},
-    {"handle": "uncomputab1e"},
-    {"handle": "theanmolsharma_"},
-    {"handle": "btcplusplus"},
-    {"handle": "ZeroSync_"},
-    {"handle": "iamflops"},
-    {"handle": "PlebLab"},
-    {"handle": "BitcoinZavior"},
-    {"handle": "EricSirion"},
-    {"handle": "summerofbitcoin"},
-    {"handle": "IshaanaMisra"},
-    {"handle": "spherostrat"},
-    {"handle": "bamskki"},
-    {"handle": "Erik17192799"},
-    {"handle": "script_wizard"},
-    {"handle": "Arminsdev"},
-    {"handle": "mononautical"},
-    {"handle": "roady_mcroad"},
-    {"handle": "macrohead7"},
-    {"handle": "vir7u"},
-    {"handle": "siv2r"},
-    {"handle": "sadeeq_ismaela"},
-    {"handle": "TChileta"},
-    {"handle": "Zenul_Abidin"},
-    {"handle": "lorban6"},
-    {"handle": "glozow"},
-    {"handle": "darosior"},
-    {"handle": "BlockchainComns"},
-    {"handle": "zakkdev"},
-    {"handle": "dmpsim"},
-    {"handle": "jokoono"},
-    {"handle": "FullyNoded"},
-    {"handle": "JohnCantrell97"},
-    {"handle": "_benma_"},
-    {"handle": "StepanSnigirev"},
-    {"handle": "thunderB__"},
-    {"handle": "bitcoinoptech"},
-    {"handle": "Eunovo9"},
-    {"handle": "RajarshiMaitra"},
-    {"handle": "_marcinja"},
-    {"handle": "brrrunog"},
-    {"handle": "nadav_kohen"},
-    {"handle": "Esky33junglist"},
-    {"handle": "dhruv"},
-    {"handle": "burakaegean"},
-    {"handle": "pavlenex"},
-    {"handle": "SomsenRuben"},
-    {"handle": "hhebasto"},
-    {"handle": "tonyioi"},
-    {"handle": "lunardragon420"},
-    {"handle": "joschisanbtc"},
-    {"handle": "WolfMcNally"},
-    {"handle": "ckpooldev"},
-    {"handle": "theinstagibbs"},
-    {"handle": "mor_pav"},
-    {"handle": "plondon514"},
-    {"handle": "murchandamus"},
-    {"handle": "jfnewbery"},
-    {"handle": "chris_coverdale"},
-    {"handle": "janbraiins"},
-    {"handle": "matsjj"},
-    {"handle": "eric_lombrozo"},
-    {"handle": "L0RINC"},
-    {"handle": "bitcoincoreorg"},
-    {"handle": "MarcoFalke"},
-    {"handle": "robin_linus"},
-    {"handle": "tdryja"},
-    {"handle": "rusty_twit"},
-    {"handle": "_jonasschnelli_"},
-    {"handle": "achow101"},
-    {"handle": "bodymindarts"},
-    {"handle": "SamouraiDev"},
-    {"handle": "Ayush_cg"},
-    {"handle": "evanlinjin"},
-    {"handle": "CoinCornerDanny"},
-    {"handle": "chris_belcher_"},
-    {"handle": "kcalvinalvinn"},
-    {"handle": "meshcollider"},
-    {"handle": "nopara73"},
-    {"handle": "_benkaufman"},
-    {"handle": "remyers_"},
-    {"handle": "BitcoinCoderBob"},
-    {"handle": "dergoegge"},
-    {"handle": "practicalswift"},
-    {"handle": "andrew_s_toth"},
-    {"handle": "okjodom"},
-    {"handle": "BobMcElrath"},
-    {"handle": "CryptAxe"},
-    {"handle": "jackmallers"},
-    {"handle": "salvatoshi"},
-    {"handle": "Blockstream"},
-    {"handle": "sedited_"},
-    {"handle": "philipglazman"},
-    {"handle": "sysmannet"},
-    {"handle": "dev_sv2"},
-    {"handle": "LLFOURN"},
-    {"handle": "arshbot"},
-    {"handle": "peterktodd"},
-    {"handle": "aantonop"},
-    {"handle": "jkczyz"},
-    {"handle": "btcdrak"},
-    {"handle": "n1ckler"},
-    {"handle": "craighammell"},
-    {"handle": "Chris_Stewart_5"},
-    {"handle": "jimpo_potamus"},
-    {"handle": "kouloumos"},
-    {"handle": "vostrnad"},
-    {"handle": "LeoComandini"},
-    {"handle": "RCasatta"},
-    {"handle": "KevKevPal"},
-    {"handle": "logansease"},
-    {"handle": "Ethan_Heilman"},
-    {"handle": "jarolrod"},
-    {"handle": "wtogami"},
-    {"handle": "satsie"},
-    {"handle": "dgenr818"},
-    {"handle": "roasbeef"},
-    {"handle": "lukechilds"},
-    {"handle": "Datavetaren"},
-    {"handle": "marttimalmi"},
-    {"handle": "prestonevans__"},
-    {"handle": "m1sterc001guy"},
-    {"handle": "champbronc2"},
-    {"handle": "thesimplekid"},
-    {"handle": "aiouy"},
-    {"handle": "eklitzke"},
-    {"handle": "bitcoinplebdev"},
-    {"handle": "danielabrozzoni"},
-    {"handle": "JeremyRubin"},
-    {"handle": "sr_gi"},
-    {"handle": "tierotiero"},
-    {"handle": "KeithMukai"},
-    {"handle": "ProofOfCash"},
-    {"handle": "TamasBlummer"},
-    {"handle": "bitgould"},
-    {"handle": "carl_dong"},
-    {"handle": "0xB10C"},
-    {"handle": "khannib"},
-    {"handle": "thomaskerin"},
-    {"handle": "fjahr"},
-    {"handle": "Lightlike1"},
-    {"handle": "KHS9NE"},
-    {"handle": "fanquake"},
-    {"handle": "suhasdaftuar"},
-    {"handle": "TheBlueMatt"},
-    {"handle": "afilini"},
-    {"handle": "kixunil"},
-    {"handle": "ihate1999"},
-    {"handle": "Ademan555"},
-    {"handle": "DocHex"},
-    {"handle": "bitconner"},
-    {"handle": "amsul_"},
-    {"handle": "SDLerner"},
-    {"handle": "nubis_bruno"},
-    {"handle": "sanket1729"},
-    {"handle": "james_hilliard"},
-    {"handle": "NicolasDorier"},
-    {"handle": "notmandatory"},
-    {"handle": "tankredhase"},
-    {"handle": "kendallweihe"},
-    {"handle": "dcousens"},
-    {"handle": "gavinandresen"},
-    {"handle": "rubensayshi"},
-    {"handle": "mikebelshe"},
-    {"handle": "hampus_s"},
-    {"handle": "rootzoll"},
-    {"handle": "midmagic"},
-    {"handle": "bencxr"},
-    {"handle": "orweinberger"},
-    {"handle": "a_ferron"},
-    {"handle": "jgarzik"},
-    {"handle": "dr_orlovsky"},
-    {"handle": "PortlandHODL"},
-    {"handle": "juscamarena"},
-    {"handle": "jonatack"},
-    {"handle": "morcosa"},
-    {"handle": "jochemin"},
-    {"handle": "dannydeezy"},
-    {"handle": "LarryRuane"},
-    {"handle": "roman_zeyde"},
-    {"handle": "utxoclub"},
-    {"handle": "sangaman"},
-    {"handle": "alphazeta"},
-    {"handle": "HetongLi"},
-    {"handle": "kallerosenbaum"},
-    {"handle": "LaurentMT"},
-    {"handle": "jesseposner"},
-    {"handle": "theStack"},
-    {"handle": "odudex"},
-    {"handle": "jcvernaleo"},
-    {"handle": "amizi"},
-    {"handle": "willcl_ark"},
-    {"handle": "niftynei"},
-    {"handle": "MrKukks"},
-    {"handle": "lispmeister"},
-    {"handle": "eiaine"},
-    {"handle": "jimmysong"},
-    {"handle": "MagicalTux"},
-    {"handle": "ajtowns"},
-    {"handle": "Stphnvlstk"},
-    {"handle": "r32a_"},
-    {"handle": "evoskuil"},
-    {"handle": "kristapsk"},
-    {"handle": "mriou"},
-    {"handle": "oleganza"},
-    {"handle": "guggero"},
-    {"handle": "mikispag"},
-    {"handle": "PavolRusnak"},
-    {"handle": "jkaartinen"},
-    {"handle": "wintercooled"},
-    {"handle": "bendavenport"},
-    {"handle": "k9ert"},
-    {"handle": "nickfogle"},
-    {"handle": "sunitram"},
-    {"handle": "udiWertheimer"},
-    {"handle": "Empact"},
-    {"handle": "jungly"},
-    {"handle": "jamesob"},
-    {"handle": "craigraw"},
-    {"handle": "promag"},
-    {"handle": "crodas"},
-    {"handle": "kanzure"},
-    {"handle": "nvk"},
-    {"handle": "matbalez"},
-    {"handle": "martindale"},
-    {"handle": "Snyke"},
-    {"handle": "kallewoof"},
-    {"handle": "rodarmor"},
-    {"handle": "msgilligan"},
-    {"handle": "dooglus"},
-    {"handle": "alexbosworth"},
-    {"handle": "neha"},
-    {"handle": "LukeDashjr"}
+    {
+      "handle": "Bitcoin_Devs"
+    },
+    {
+      "handle": "BenAllenG"
+    },
+    {
+      "handle": "theanmolsharma_"
+    },
+    {
+      "handle": "btcplusplus"
+    },
+    {
+      "handle": "ZeroSync_"
+    },
+    {
+      "handle": "PlebLab"
+    },
+    {
+      "handle": "BitcoinZavior"
+    },
+    {
+      "handle": "EricSirion"
+    },
+    {
+      "handle": "summerofbitcoin"
+    },
+    {
+      "handle": "spherostrat"
+    },
+    {
+      "handle": "Erik17192799"
+    },
+    {
+      "handle": "script_wizard"
+    },
+    {
+      "handle": "Arminsdev"
+    },
+    {
+      "handle": "mononautical"
+    },
+    {
+      "handle": "roady_mcroad"
+    },
+    {
+      "handle": "macrohead7"
+    },
+    {
+      "handle": "vir7u"
+    },
+    {
+      "handle": "siv2r"
+    },
+    {
+      "handle": "sadeeq_ismaela"
+    },
+    {
+      "handle": "Zenul_Abidin"
+    },
+    {
+      "handle": "lorban6"
+    },
+    {
+      "handle": "glozow"
+    },
+    {
+      "handle": "darosior"
+    },
+    {
+      "handle": "BlockchainComns"
+    },
+    {
+      "handle": "zakkdev"
+    },
+    {
+      "handle": "dmpsim"
+    },
+    {
+      "handle": "jokoono"
+    },
+    {
+      "handle": "FullyNoded"
+    },
+    {
+      "handle": "JohnCantrell97"
+    },
+    {
+      "handle": "_benma_"
+    },
+    {
+      "handle": "StepanSnigirev"
+    },
+    {
+      "handle": "thunderB__"
+    },
+    {
+      "handle": "bitcoinoptech"
+    },
+    {
+      "handle": "Eunovo9"
+    },
+    {
+      "handle": "RajarshiMaitra"
+    },
+    {
+      "handle": "_marcinja"
+    },
+    {
+      "handle": "brrrunog"
+    },
+    {
+      "handle": "nadav_kohen"
+    },
+    {
+      "handle": "Esky33junglist"
+    },
+    {
+      "handle": "dhruv"
+    },
+    {
+      "handle": "pavlenex"
+    },
+    {
+      "handle": "SomsenRuben"
+    },
+    {
+      "handle": "hhebasto"
+    },
+    {
+      "handle": "tonyioi"
+    },
+    {
+      "handle": "lunardragon420"
+    },
+    {
+      "handle": "joschisanbtc"
+    },
+    {
+      "handle": "WolfMcNally"
+    },
+    {
+      "handle": "ckpooldev"
+    },
+    {
+      "handle": "theinstagibbs"
+    },
+    {
+      "handle": "mor_pav"
+    },
+    {
+      "handle": "plondon514"
+    },
+    {
+      "handle": "murchandamus"
+    },
+    {
+      "handle": "chris_coverdale"
+    },
+    {
+      "handle": "janbraiins"
+    },
+    {
+      "handle": "matsjj"
+    },
+    {
+      "handle": "eric_lombrozo"
+    },
+    {
+      "handle": "L0RINC"
+    },
+    {
+      "handle": "bitcoincoreorg"
+    },
+    {
+      "handle": "MarcoFalke"
+    },
+    {
+      "handle": "robin_linus"
+    },
+    {
+      "handle": "tdryja"
+    },
+    {
+      "handle": "rusty_twit"
+    },
+    {
+      "handle": "_jonasschnelli_"
+    },
+    {
+      "handle": "achow101"
+    },
+    {
+      "handle": "bodymindarts"
+    },
+    {
+      "handle": "SamouraiDev"
+    },
+    {
+      "handle": "Ayush_cg"
+    },
+    {
+      "handle": "evanlinjin"
+    },
+    {
+      "handle": "CoinCornerDanny"
+    },
+    {
+      "handle": "chris_belcher_"
+    },
+    {
+      "handle": "meshcollider"
+    },
+    {
+      "handle": "nopara73"
+    },
+    {
+      "handle": "_benkaufman"
+    },
+    {
+      "handle": "remyers_"
+    },
+    {
+      "handle": "BitcoinCoderBob"
+    },
+    {
+      "handle": "dergoegge"
+    },
+    {
+      "handle": "andrew_s_toth"
+    },
+    {
+      "handle": "okjodom"
+    },
+    {
+      "handle": "BobMcElrath"
+    },
+    {
+      "handle": "jackmallers"
+    },
+    {
+      "handle": "salvatoshi"
+    },
+    {
+      "handle": "Blockstream"
+    },
+    {
+      "handle": "sedited_"
+    },
+    {
+      "handle": "philipglazman"
+    },
+    {
+      "handle": "dev_sv2"
+    },
+    {
+      "handle": "LLFOURN"
+    },
+    {
+      "handle": "arshbot"
+    },
+    {
+      "handle": "peterktodd"
+    },
+    {
+      "handle": "aantonop"
+    },
+    {
+      "handle": "jkczyz"
+    },
+    {
+      "handle": "btcdrak"
+    },
+    {
+      "handle": "n1ckler"
+    },
+    {
+      "handle": "craighammell"
+    },
+    {
+      "handle": "Chris_Stewart_5"
+    },
+    {
+      "handle": "jimpo_potamus"
+    },
+    {
+      "handle": "kouloumos"
+    },
+    {
+      "handle": "LeoComandini"
+    },
+    {
+      "handle": "RCasatta"
+    },
+    {
+      "handle": "KevKevPal"
+    },
+    {
+      "handle": "logansease"
+    },
+    {
+      "handle": "Ethan_Heilman"
+    },
+    {
+      "handle": "jarolrod"
+    },
+    {
+      "handle": "wtogami"
+    },
+    {
+      "handle": "satsie"
+    },
+    {
+      "handle": "roasbeef"
+    },
+    {
+      "handle": "lukechilds"
+    },
+    {
+      "handle": "Datavetaren"
+    },
+    {
+      "handle": "marttimalmi"
+    },
+    {
+      "handle": "prestonevans__"
+    },
+    {
+      "handle": "m1sterc001guy"
+    },
+    {
+      "handle": "champbronc2"
+    },
+    {
+      "handle": "thesimplekid"
+    },
+    {
+      "handle": "aiouy"
+    },
+    {
+      "handle": "danielabrozzoni"
+    },
+    {
+      "handle": "JeremyRubin"
+    },
+    {
+      "handle": "tierotiero"
+    },
+    {
+      "handle": "KeithMukai"
+    },
+    {
+      "handle": "ProofOfCash"
+    },
+    {
+      "handle": "TamasBlummer"
+    },
+    {
+      "handle": "bitgould"
+    },
+    {
+      "handle": "carl_dong"
+    },
+    {
+      "handle": "0xB10C"
+    },
+    {
+      "handle": "khannib"
+    },
+    {
+      "handle": "fjahr"
+    },
+    {
+      "handle": "Lightlike1"
+    },
+    {
+      "handle": "KHS9NE"
+    },
+    {
+      "handle": "fanquake"
+    },
+    {
+      "handle": "suhasdaftuar"
+    },
+    {
+      "handle": "TheBlueMatt"
+    },
+    {
+      "handle": "kixunil"
+    },
+    {
+      "handle": "Ademan555"
+    },
+    {
+      "handle": "DocHex"
+    },
+    {
+      "handle": "bitconner"
+    },
+    {
+      "handle": "SDLerner"
+    },
+    {
+      "handle": "nubis_bruno"
+    },
+    {
+      "handle": "sanket1729"
+    },
+    {
+      "handle": "james_hilliard"
+    },
+    {
+      "handle": "NicolasDorier"
+    },
+    {
+      "handle": "notmandatory"
+    },
+    {
+      "handle": "tankredhase"
+    },
+    {
+      "handle": "kendallweihe"
+    },
+    {
+      "handle": "gavinandresen"
+    },
+    {
+      "handle": "rubensayshi"
+    },
+    {
+      "handle": "mikebelshe"
+    },
+    {
+      "handle": "hampus_s"
+    },
+    {
+      "handle": "rootzoll"
+    },
+    {
+      "handle": "bencxr"
+    },
+    {
+      "handle": "orweinberger"
+    },
+    {
+      "handle": "a_ferron"
+    },
+    {
+      "handle": "jgarzik"
+    },
+    {
+      "handle": "dr_orlovsky"
+    },
+    {
+      "handle": "juscamarena"
+    },
+    {
+      "handle": "jonatack"
+    },
+    {
+      "handle": "morcosa"
+    },
+    {
+      "handle": "jochemin"
+    },
+    {
+      "handle": "dannydeezy"
+    },
+    {
+      "handle": "LarryRuane"
+    },
+    {
+      "handle": "roman_zeyde"
+    },
+    {
+      "handle": "kallerosenbaum"
+    },
+    {
+      "handle": "LaurentMT"
+    },
+    {
+      "handle": "theStack"
+    },
+    {
+      "handle": "odudex"
+    },
+    {
+      "handle": "jcvernaleo"
+    },
+    {
+      "handle": "amizi"
+    },
+    {
+      "handle": "willcl_ark"
+    },
+    {
+      "handle": "niftynei"
+    },
+    {
+      "handle": "MrKukks"
+    },
+    {
+      "handle": "lispmeister"
+    },
+    {
+      "handle": "eiaine"
+    },
+    {
+      "handle": "jimmysong"
+    },
+    {
+      "handle": "MagicalTux"
+    },
+    {
+      "handle": "ajtowns"
+    },
+    {
+      "handle": "Stphnvlstk"
+    },
+    {
+      "handle": "evoskuil"
+    },
+    {
+      "handle": "kristapsk"
+    },
+    {
+      "handle": "mriou"
+    },
+    {
+      "handle": "oleganza"
+    },
+    {
+      "handle": "guggero"
+    },
+    {
+      "handle": "mikispag"
+    },
+    {
+      "handle": "PavolRusnak"
+    },
+    {
+      "handle": "wintercooled"
+    },
+    {
+      "handle": "bendavenport"
+    },
+    {
+      "handle": "k9ert"
+    },
+    {
+      "handle": "nickfogle"
+    },
+    {
+      "handle": "sunitram"
+    },
+    {
+      "handle": "udiWertheimer"
+    },
+    {
+      "handle": "Empact"
+    },
+    {
+      "handle": "jungly"
+    },
+    {
+      "handle": "jamesob"
+    },
+    {
+      "handle": "craigraw"
+    },
+    {
+      "handle": "promag"
+    },
+    {
+      "handle": "crodas"
+    },
+    {
+      "handle": "kanzure"
+    },
+    {
+      "handle": "nvk"
+    },
+    {
+      "handle": "matbalez"
+    },
+    {
+      "handle": "martindale"
+    },
+    {
+      "handle": "Snyke"
+    },
+    {
+      "handle": "kallewoof"
+    },
+    {
+      "handle": "rodarmor"
+    },
+    {
+      "handle": "msgilligan"
+    },
+    {
+      "handle": "alexbosworth"
+    },
+    {
+      "handle": "neha"
+    },
+    {
+      "handle": "LukeDashjr"
+    }
   ],
   "notable_builders": {
-    "core_maintainers": ["glozow", "achow101", "fanquake", "MarcoFalke", "TheBlueMatt", "LukeDashjr"],
-    "core_contributors": ["darosior", "theinstagibbs", "murchandamus", "jfnewbery", "fjahr", "jonatack", "jamesob", "suhasdaftuar", "carl_dong", "0xB10C"],
-    "lightning": ["roasbeef", "rusty_twit", "niftynei", "guggero", "alexbosworth", "jackmallers", "tdryja"],
-    "research": ["robin_linus", "n1ckler", "SomsenRuben", "ajtowns", "JeremyRubin", "sanket1729"],
-    "organizations": ["bitcoincoreorg", "bitcoinoptech", "Blockstream", "ZeroSync_", "PlebLab", "summerofbitcoin"],
-    "wallets_tools": ["nvk", "craigraw", "NicolasDorier", "_benkaufman", "salvatoshi", "afilini"]
+    "core_maintainers": [
+      "glozow",
+      "achow101",
+      "fanquake",
+      "MarcoFalke",
+      "TheBlueMatt",
+      "LukeDashjr"
+    ],
+    "core_contributors": [
+      "darosior",
+      "theinstagibbs",
+      "murchandamus",
+      "fjahr",
+      "jonatack",
+      "jamesob",
+      "suhasdaftuar",
+      "carl_dong",
+      "0xB10C"
+    ],
+    "lightning": [
+      "roasbeef",
+      "rusty_twit",
+      "niftynei",
+      "guggero",
+      "alexbosworth",
+      "jackmallers",
+      "tdryja"
+    ],
+    "research": [
+      "robin_linus",
+      "n1ckler",
+      "SomsenRuben",
+      "ajtowns",
+      "JeremyRubin",
+      "sanket1729"
+    ],
+    "organizations": [
+      "bitcoincoreorg",
+      "bitcoinoptech",
+      "Blockstream",
+      "ZeroSync_",
+      "PlebLab",
+      "summerofbitcoin"
+    ],
+    "wallets_tools": [
+      "nvk",
+      "craigraw",
+      "NicolasDorier",
+      "_benkaufman",
+      "salvatoshi"
+    ]
   },
   "notes": "234 accounts from Jameson Lopp's Bitcoin Developers list."
 }

@@ -8,6 +8,7 @@ node_modules/
 
 # Output files (keep structure, ignore generated content)
 examples/*.json
+examples/*.md
 !examples/.gitkeep
 
 # OS files
